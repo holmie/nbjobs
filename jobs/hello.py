@@ -7,5 +7,5 @@ class HelloWorldJob(Job):
         description = "Minimal test-job"
 
     def run(self, *args, **kwargs):
-        self.logger.info("Hello from nbjobs")
+        self.logger.info("Wow, this code contains a nasty bug.")
         return "Done"
